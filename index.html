@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+    <style>
+      @keyframes twinkling {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: -10000px 5000px;
+        }
+      }
+      .stars {
+        overflow-x: hidden;
+        background: url("https://www.transparenttextures.com/patterns/stardust.png");
+        background-repeat: repeat;
+        animation: twinkling 300s infinite;
+      }
+    </style>
+  </head>
+  <body class="bg-blue-950">
+    <h1
+      class="bg-blue-900 text-center text-white font-mono text-4xl px-5 py-10 drop-shadow-md"
+    >
+      The Pl<img
+        src="./images/Saturn.jpg"
+        alt=""
+        class="w-7 rounded-full inline"
+      />nets of The S<img
+        src="./images/Mercury.jpg"
+        alt=""
+        class="w-7 rounded-full inline"
+      />lar System
+    </h1>
+
+    <div
+      class="cards flex flex-wrap justify-center bg-blue-950 gap-10 px-3 py-3 w-screen h-screen stars"
+    >
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Mercury.jpg" alt="Mercury" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Mercury</h2>
+          <h3 class="text-center font-mono">The Swift Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Venus.jpg" alt="Venus" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Venus</h2>
+          <h3 class="text-center font-mono">The Veiled Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Earth.jpg" alt="Earth" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Earth</h2>
+          <h3 class="text-center font-mono">The Blue Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Mars.jpg" alt="Mars" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Mars</h2>
+          <h3 class="text-center font-mono">The Red Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Jupiter.jpg" alt="Jupiter" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Jupiter</h2>
+          <h3 class="text-center font-mono">The Giant Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Saturn.jpg" alt="Saturn" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Saturn</h2>
+          <h3 class="text-center font-mono">The Ringed Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Uranus.jpg" alt="Uranus" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Uranus</h2>
+          <h3 class="text-center font-mono">The Ice Giant</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Neptune.jpg" alt="Neptune" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Neptune</h2>
+          <h3 class="text-center font-mono">The Windy Planet</h3>
+        </div>
+      </div>
+
+      <div
+        class="card bg-gradient-to-t from-blue-500 to-transparent hover:bg-sky-400 ease-out duration-300 py-2 px-2 rounded-md"
+      >
+        <img src="./images/Pluto.jpg" alt="Pluto" class="w-72 rounded" />
+        <div>
+          <h2 class="font-serif text-center font-bold">Pluto</h2>
+          <h3 class="text-center font-mono">The Dwarf Planet</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
